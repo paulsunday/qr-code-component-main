@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  width: 100%;
+  background-color: rgb(215, 215, 247);
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+img {
+  width: 30em;
+  height: 45em;
+  border-radius: 20px;
+}
+.code {
+  font-size: 11px;
+  text-align: center;
+  width: 450em;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+/* mobile device designs */
+@media (min-width: 576px) {
+  body {
+    background-color: rgb(250, 243, 229);
+    overflow-x: hidden;
+  
+  }
+  img {
+    width: 40em;
+  }
+  .code {
+    width: 45em;
+    
+  }
+}
+/* tablet device  */
+@media (min-width: 780px) {
+  body {
+    background-color: rgb(185, 201, 185);
+    overflow-x: hidden;
+   
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+/* laptop device  */
+@media (min-width: 992px) {
+  body {
+    background-color: rgb(201, 199, 202);
+  
+  }
+}
+/* desktop device */
+@media (min-width: 1200px) {
+  body {
+    background-color: Grayish 
+     hsl(220, 15%, 55%);
+    
+  }
+}
